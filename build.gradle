@@ -1,0 +1,50 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+
+        //JitPack发布仓库需要
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+        maven { url 'https://jitpack.io' }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//在这里定义了全局的一些构建属性
+ext {
+    javaVersion = JavaVersion.VERSION_1_8
+    compileSdkVersion = 29
+    buildToolsVersion = "29.0.2"
+    targetSdkVersion = 28
+    minSdkVersion = 19
+
+    applicationId = "com_7idear.demo"
+    scheme = "7idear"
+
+    versionCode = 1
+    versionName = "1.0"
+
+    supportLibraryVersion = "28.0.0"
+
+}

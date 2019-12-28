@@ -1,0 +1,9 @@
+apply plugin: 'com.android.application'
+apply from: "../app_config.gradle"
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(':lib_tv')
+
+}

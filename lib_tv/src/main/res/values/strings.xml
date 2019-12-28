@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">lib_tv</string>
+
+    <string name="anim_alpha" translatable="false">alpha</string>
+    <string name="anim_scale_x" translatable="false">scaleX</string>
+    <string name="anim_scale_y" translatable="false">scaleY</string>
+    <string name="anim_translation_x" translatable="false">translationX</string>
+    <string name="anim_translation_y" translatable="false">translationY</string>
+    <string name="anim_rotation_x" translatable="false">rotationX</string>
+    <string name="anim_rotation_y" translatable="false">rotationY</string>
+    <integer name="anim_total_time">1000</integer>
+    <integer name="anim_half_time">500</integer>
+</resources>

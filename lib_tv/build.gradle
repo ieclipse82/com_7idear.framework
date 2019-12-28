@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+apply from: "../app_config.gradle"
+//JitPack发布仓库需要
+apply plugin: 'com.github.dcendents.android-maven'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api project(':lib_framework')
+
+}

@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+apply from: "../app_config.gradle"
+//JitPack发布仓库需要
+apply plugin: 'com.github.dcendents.android-maven'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api('androidx.appcompat:appcompat:1.1.0') {
+        exclude group: 'androidx.viewpager', module: 'viewpager'
+    }
+    api('androidx.legacy:legacy-support-v4:1.0.0') {
+        exclude group: 'androidx.viewpager', module: 'viewpager'
+    }
+    api('androidx.recyclerview:recyclerview:1.1.0')
+
+    api 'com.squareup.okhttp3:okhttp:3.11.0'
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    // debugImplementation because LeakCanary should only run in debug builds.
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.0-beta-3'
+}

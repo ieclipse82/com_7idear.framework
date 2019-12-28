@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/anim_total_time"
+        android:propertyName="@string/anim_scale_x"
+        android:valueFrom="1.0"
+        android:valueTo="1.1" />
+    <objectAnimator
+        android:duration="@integer/anim_total_time"
+        android:propertyName="@string/anim_scale_y"
+        android:valueFrom="1.0"
+        android:valueTo="1.1" />
+    <objectAnimator
+        android:duration="@integer/anim_half_time"
+        android:propertyName="@string/anim_alpha"
+        android:valueFrom="1.0"
+        android:valueTo="0.8" />
+    <objectAnimator
+        android:duration="@integer/anim_half_time"
+        android:propertyName="@string/anim_alpha"
+        android:startOffset="@integer/anim_half_time"
+        android:valueFrom="0.8"
+        android:valueTo="1.0" />
+    <!--    <objectAnimator-->
+    <!--        android:duration="@integer/anim_half_time"-->
+    <!--        android:propertyName="@string/anim_translation_y"-->
+    <!--        android:valueFrom="0dp"-->
+    <!--        android:valueTo="10dp" />-->
+    <!--    <objectAnimator-->
+    <!--        android:duration="@integer/anim_half_time"-->
+    <!--        android:propertyName="@string/anim_translation_y"-->
+    <!--        android:startOffset="@integer/anim_half_time"-->
+    <!--        android:valueFrom="10dp"-->
+    <!--        android:valueTo="0dp" />-->
+    <objectAnimator
+        android:duration="@integer/anim_half_time"
+        android:propertyName="@string/anim_rotation_x"
+        android:valueFrom="0"
+        android:valueTo="3" />
+    <objectAnimator
+        android:duration="@integer/anim_half_time"
+        android:propertyName="@string/anim_rotation_x"
+        android:startOffset="@integer/anim_half_time"
+        android:valueFrom="3"
+        android:valueTo="0" />
+</set>

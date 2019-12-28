@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用颜色-->
+    <color name="c_transparent">@android:color/transparent</color>
+    <color name="c_white">#FFFFFF</color>
+    <color name="c_whitesmoke">#F5F5F5</color>
+    <color name="c_lightgrey">#D3D3D3</color>
+    <color name="c_darkgray">#A9A9A9</color>
+    <color name="c_gray">#808080</color>
+    <color name="c_dimgray">#696969</color>
+    <color name="c_black">#000000</color>
+
+    <!--常用颜色-->
+    <color name="c_pink">#FFC0CB</color>
+    <color name="c_deeppink">#FF1493</color>
+    <color name="c_darkred">#8B0000</color>
+    <color name="c_red">#FF0000</color>
+    <color name="c_orangered">#FF4500</color>
+    <color name="c_orange">#FF9C00</color>
+    <color name="c_gold">#FFD700</color>
+    <color name="c_yellow">#FFFF00</color>
+    <color name="c_yellowgreen">#9ACD32</color>
+    <color name="c_lightgreen">#90EE90</color>
+    <color name="c_green">#00FF00</color>
+    <color name="c_darkgreen">#006400</color>
+    <color name="c_cyan">#00FFFF</color>
+    <color name="c_darkcyan">#008B8B</color>
+    <color name="c_skyblue">#87CEEB</color>
+    <color name="c_dodgerblue">#1E90FF</color>
+    <color name="c_blue">#0000FF</color>
+    <color name="c_darkblue">#00008B</color>
+    <color name="c_darkslateblue">#483D8B</color>
+    <color name="c_blueviolet">#8A2BE2</color>
+    <color name="c_darkviolet">#9400D3</color>
+    <color name="c_purple">#800080</color>
+    <color name="c_violet">#EE82EE</color>
+
+    <!-- 白色（透明度，不建议使用）-->
+    <color name="c_white_95">#F2FFFFFF</color>
+    <color name="c_white_90">#E5FFFFFF</color>
+    <color name="c_white_85">#D8FFFFFF</color>
+    <color name="c_white_80">#CCFFFFFF</color>
+    <color name="c_white_75">#BFFFFFFF</color>
+    <color name="c_white_70">#B2FFFFFF</color>
+    <color name="c_white_65">#A5FFFFFF</color>
+    <color name="c_white_60">#99FFFFFF</color>
+    <color name="c_white_55">#8CFFFFFF</color>
+    <color name="c_white_50">#7FFFFFFF</color>
+    <color name="c_white_45">#72FFFFFF</color>
+    <color name="c_white_40">#66FFFFFF</color>
+    <color name="c_white_35">#59FFFFFF</color>
+    <color name="c_white_30">#4CFFFFFF</color>
+    <color name="c_white_25">#3FFFFFFF</color>
+    <color name="c_white_20">#33FFFFFF</color>
+    <color name="c_white_15">#26FFFFFF</color>
+    <color name="c_white_10">#19FFFFFF</color>
+    <color name="c_white_05">#0CFFFFFF</color>
+
+    <!-- 黑色（透明度，不建议使用）-->
+    <color name="c_black_95">#F2000000</color>
+    <color name="c_black_90">#E5000000</color>
+    <color name="c_black_85">#D8000000</color>
+    <color name="c_black_80">#CC000000</color>
+    <color name="c_black_75">#BF000000</color>
+    <color name="c_black_70">#B2000000</color>
+    <color name="c_black_65">#A5000000</color>
+    <color name="c_black_60">#99000000</color>
+    <color name="c_black_55">#8C000000</color>
+    <color name="c_black_50">#7F000000</color>
+    <color name="c_black_45">#72000000</color>
+    <color name="c_black_40">#66000000</color>
+    <color name="c_black_35">#59000000</color>
+    <color name="c_black_30">#4C000000</color>
+    <color name="c_black_25">#3F000000</color>
+    <color name="c_black_20">#33000000</color>
+    <color name="c_black_15">#26000000</color>
+    <color name="c_black_10">#19000000</color>
+    <color name="c_black_05">#0C000000</color>
+
+</resources>

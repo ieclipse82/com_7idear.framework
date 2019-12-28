@@ -1,0 +1,29 @@
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    //默认配置
+    defaultConfig {
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion rootProject.ext.minSdkVersion
+
+        //应用配置文件参数
+        buildConfigField 'String', 'APP_ID', '\"' + rootProject.ext.applicationId + '\"'
+        buildConfigField 'String', 'APP_SCHEME', '\"' + rootProject.ext.scheme + '\"'
+        buildConfigField 'String', 'APP_NAME', '"7idear"'
+        buildConfigField 'String', 'APP_THEME', '"com.7idear.theme.01"'
+        buildConfigField 'String', 'APP_SERVER_URL', '"https://api.7idear.com"'
+        buildConfigField 'String', 'APP_SERVER_API', '"/v1/"'
+
+        //manifest替换参数
+        manifestPlaceholders = ["SCHEME_APP" : rootProject.ext.scheme,
+                                "SCHEME_HOST": "com.7idear",]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
